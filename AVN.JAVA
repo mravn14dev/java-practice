@@ -6,7 +6,7 @@ public class FibonacciIterative {
         
         System.out.println("Fibonaci Series up to " + n + " terms:");
         
-        for (int i = 1; i <= n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print(firstTerm + " ");
             
             // Compute the next term
